@@ -1,0 +1,27 @@
+{
+  "name": "sarj-eslint",
+  "version": "0.1.0",
+  "description": "Custom ESLint rules collection",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "zod"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "mocha": "^10.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
