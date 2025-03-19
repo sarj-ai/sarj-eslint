@@ -1,8 +1,11 @@
 {
-  "name": "sarj-eslint",
+  "name": "@sarj/eslint-plugin",
   "version": "0.1.0",
   "description": "Custom ESLint rules collection",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "mocha tests/**/*.test.js"
   },
